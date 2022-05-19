@@ -64,7 +64,6 @@ namespace Labrasa.API.Controllers
             {
                 await _context.Apagar(id);
                 return true;
-
             }
             catch (Exception ex)
             {
